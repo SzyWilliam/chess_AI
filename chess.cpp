@@ -1,9 +1,6 @@
-#include <stdio.h>
 #include "chess.h"
 
 int chessBoard[LEN][LEN];
-
-char* getStyle(int i,int j);
 
 void print_board(){
 	for(int i = -1; i <= LEN; i++){
